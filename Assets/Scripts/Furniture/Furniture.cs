@@ -1,11 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
+using Mirror;
+using Mirror.RemoteCalls;
 using UnityEngine;
 
 public abstract class Furniture : Mirror.NetworkBehaviour
 {
 
-[SerializeField] private int cost;
-[SerializeField] private bool unique;
+[SerializeField][Min(0f)][Tooltip("Sets the cost of the furniture in the house builder.")] private int cost;
+[SerializeField][Tooltip("I have no idea what this does... -NaV")] private bool unique;
 
 }
