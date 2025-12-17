@@ -1,0 +1,1 @@
+using System;public enum WeaponKind{	None,	Hammer,	Blade,	Cane,	Cake,	Book,	Club,	Pronged,	Rifle,	Bow,	Hairdryer,	Hose,	Iron,	Needle,	Sickle,	Stapler,	Yoyo,	Card,	Fan,	Bomb,	Ball,	Spoon,	Lance,	Dice,	Axe,	Other,	Count,	Ranged}
