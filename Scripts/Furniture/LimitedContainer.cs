@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class LimitedContainer : ItemAcceptorMono
 {
 	public string[] item;
-	public WeaponKind limit;
+	public string limit;
+
 
 }
